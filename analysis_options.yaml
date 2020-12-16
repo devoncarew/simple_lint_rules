@@ -1,15 +1,16 @@
 # For lint rules and documentation, see http://dart-lang.github.io/linter/lints.
 
 errors:
-  # Increase the severity of several hints.
+  # Increase the severity of some hints.
   unused_import: warning
 
 linter:
   rules:
-    # ordering lints
+    # Ordering lints.
     - directives_ordering
     - sort_pub_dependencies
-    # other lints
+
+    # All other lints.
     - always_declare_return_types
     - avoid_empty_else
     - avoid_relative_lib_imports
