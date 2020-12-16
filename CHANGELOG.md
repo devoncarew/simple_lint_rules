@@ -1,3 +1,7 @@
+## 1.0.1
+
+- Fix the location of the analysis options file.
+
 ## 1.0.0+1
 
 - Update the documentation.
