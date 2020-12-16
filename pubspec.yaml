@@ -1,6 +1,6 @@
 name: simple_lint_rules
 description: A simple lint rule set and analysis options configuration.
-version: 1.0.0
+version: 1.0.0+1
 homepage: https://pub.dev/packages/simple_lint_rules
 
 environment:
