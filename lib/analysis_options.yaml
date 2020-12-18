@@ -1,8 +1,9 @@
 # For lint rules and documentation, see http://dart-lang.github.io/linter/lints.
 
-errors:
-  # Increase the severity of some hints.
-  unused_import: warning
+analyzer:
+  errors:
+    # Increase the severity of some hints.
+    - unused_import: warning
 
 linter:
   rules:
