@@ -9,7 +9,7 @@ To use the lints, add a dependency in your `pubspec.yaml` file:
 
 ```yaml
 dev_dependencies:
-  simple_lint_rules: ^1.9.0
+  simple_lint_rules: ^1.0.1+1
 ```
 
 then, add an include in your `analysis_options.yaml`.
