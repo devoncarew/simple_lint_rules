@@ -1,3 +1,10 @@
+## 2.0.0
+
+- Reworked the rule set to be based on `package:lints/recommended.yaml`.
+- Removed `lib/analysis_options.yaml`.
+- Added `lib/strict.yaml`.
+- Added `lib/strict_plus.yaml`.
+
 ## 1.0.1+1
 
 - Fix an issue in the analysis options file.
