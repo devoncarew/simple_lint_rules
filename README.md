@@ -1,3 +1,4 @@
+[![Build](https://github.com/devoncarew/simple_lint_rules/actions/workflows/build.yaml/badge.svg)](https://github.com/devoncarew/simple_lint_rules/actions/workflows/build.yaml)
 [![pub package](https://img.shields.io/pub/v/simple_lint_rules.svg)](https://pub.dev/packages/simple_lint_rules)
 
 ## What is this?
