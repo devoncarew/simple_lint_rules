@@ -1,0 +1,31 @@
+# For lint rules and documentation, see http://dart-lang.github.io/linter/lints.
+
+include: package:simple_lint_rules/strict.yaml
+
+linter:
+  rules:
+    - avoid_bool_literals_in_conditional_expressions
+    - avoid_relative_lib_imports
+    - cascade_invocations
+    - hash_and_equals
+    - iterable_contains_unrelated_type
+    - join_return_with_assignment
+    - list_remove_unrelated_type
+    - literal_only_boolean_expressions
+    - no_runtimeType_toString
+    - prefer_final_locals
+    - prefer_is_empty
+    - prefer_is_not_empty
+    - prefer_iterable_whereType
+    - prefer_relative_imports
+    - provide_deprecation_message
+    - void_checks
+
+    # could cause breaking changes?
+    # - avoid_classes_with_only_static_members
+    # - avoid_returning_this
+    # - avoid_unused_constructor_parameters
+    # - camel_case_types
+    # - camel_case_types
+    # - non_constant_identifier_names
+    # - test_types_in_equals
