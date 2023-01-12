@@ -1,3 +1,7 @@
+## 2.0.1
+
+- Update the the latest version of `package:lints`.
+
 ## 2.0.0
 
 - Reworked the rule set to be based on `package:lints/recommended.yaml`.
