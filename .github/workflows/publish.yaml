@@ -1,0 +1,41 @@
+# A CI configuration to auto-publish pub packages.
+#
+# To use this script, make sure the repo is configured to squash PR commits.
+
+name: Publish
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+    types: [opened, synchronize, reopened, labeled, unlabeled]
+
+jobs:
+  auto-publish:
+    # Update this to the host GitHub org.
+    if: github.repository_owner == 'devoncarew'
+
+    # This is needed to push tags back to the repo.
+    permissions:
+      contents: write
+
+    runs-on: ubuntu-latest
+    steps:
+      # Checks out a copy of the repo. This fetches all commits in order to
+      # determine the changed files.
+      - name: Check out repo
+        uses: actions/checkout@755da8c3cf115ac066823e79a1e1788f8940201b
+        with:
+          fetch-depth: 0
+
+      - name: Set up Dart
+        uses: dart-lang/setup-dart@6a218f2413a3e78e9087f638a238f6b40893203d
+
+      - name: Install Firehose
+        run: dart pub global activate firehose
+
+      - name: Verify changed packages (publish dry-run)
+        run: dart pub global run firehose --verify
+        env:
+          PR_LABELS: "${{ join(github.event.pull_request.labels.*.name) }}"
