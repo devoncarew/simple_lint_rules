@@ -6,7 +6,8 @@ name: Publish
 
 on:
   push:
-    branches: [main]
+    tags:
+      - 'v[0-9]+.[0-9]+.[0-9]+*'
   pull_request:
     branches: [main]
     types: [opened, synchronize, reopened, labeled, unlabeled]
@@ -16,9 +17,9 @@ jobs:
     # Update this to the host GitHub org.
     if: github.repository_owner == 'devoncarew'
 
-    # This is needed to push tags back to the repo.
+    # This is required for authentication using OIDC.
     permissions:
-      contents: write
+      id-token: write 
 
     runs-on: ubuntu-latest
     steps:
@@ -30,12 +31,20 @@ jobs:
           fetch-depth: 0
 
       - name: Set up Dart
-        uses: dart-lang/setup-dart@6a218f2413a3e78e9087f638a238f6b40893203d
+        uses: dart-lang/setup-dart@main
 
       - name: Install Firehose
         run: dart pub global activate firehose
 
+      - name: Run pub get
+        run: dart pub get
+
       - name: Verify changed packages (publish dry-run)
+        if: ${{ github.event_name == 'pull_request' }}
         run: dart pub global run firehose --verify
         env:
           PR_LABELS: "${{ join(github.event.pull_request.labels.*.name) }}"
+
+      - name: Publish changed packages
+        if: ${{ github.event_name == 'push' }}
+        run: dart pub run firehose --publish
