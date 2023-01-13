@@ -3,8 +3,8 @@
 
 ## What is this?
 
-A simple lint rule set and analysis options configuration for Dart's analysis
-server. This rule set is based on `package:lints/recommended.yaml`.
+A simple lint rule set and analysis options configuration. This rule set is
+based on `package:lints/recommended.yaml`.
 
 ## Using the Lints
 
