@@ -47,4 +47,4 @@ jobs:
 
       - name: Publish changed packages
         if: ${{ github.event_name == 'push' }}
-        run: dart pub run firehose --publish
+        run: dart pub global run firehose --publish
