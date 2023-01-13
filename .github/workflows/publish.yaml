@@ -1,16 +1,16 @@
 # A CI configuration to auto-publish pub packages.
-#
-# To use this script, make sure the repo is configured to squash PR commits.
 
 name: Publish
 
 on:
-  push:
-    tags:
-      - 'v[0-9]+.[0-9]+.[0-9]+*'
+  # Run on PRs for general validation (changelog, pubspec version, ...).
   pull_request:
     branches: [main]
     types: [opened, synchronize, reopened, labeled, unlabeled]
+  # Run on git tags to perform the publish.
+  push:
+    tags:
+      - 'v[0-9]+.[0-9]+.[0-9]+*'
 
 jobs:
   auto-publish:
@@ -23,8 +23,7 @@ jobs:
 
     runs-on: ubuntu-latest
     steps:
-      # Checks out a copy of the repo. This fetches all commits in order to
-      # determine the changed files.
+      # Fetches all commits in order to determine the changed files.
       - name: Check out repo
         uses: actions/checkout@755da8c3cf115ac066823e79a1e1788f8940201b
         with:
@@ -36,15 +35,12 @@ jobs:
       - name: Install Firehose
         run: dart pub global activate firehose
 
-      - name: Run pub get
-        run: dart pub get
-
-      - name: Verify changed packages (publish dry-run)
+      - name: Validate package changes
         if: ${{ github.event_name == 'pull_request' }}
         run: dart pub global run firehose --verify
         env:
           PR_LABELS: "${{ join(github.event.pull_request.labels.*.name) }}"
 
-      - name: Publish changed packages
+      - name: Publish package
         if: ${{ github.event_name == 'push' }}
         run: dart pub global run firehose --publish
