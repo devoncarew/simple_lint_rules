@@ -1,3 +1,7 @@
+## 2.0.2+1
+
+- Update docs.
+
 ## 2.0.2
 
 - Update the readme with contributing information.

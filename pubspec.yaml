@@ -1,6 +1,6 @@
 name: simple_lint_rules
 description: A simple lint rule set and analysis options configuration.
-version: 2.0.2
+version: 2.0.2+1
 repository: https://pub.dev/packages/simple_lint_rules
 
 # Property to support tooling around auto-publishing.
