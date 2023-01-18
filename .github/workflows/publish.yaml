@@ -11,4 +11,4 @@ on:
 jobs:
   publish:
     if: github.repository_owner == 'devoncarew'
-    uses: devoncarew/firehose/.github/workflows/publish.yml@main
+    uses: devoncarew/firehose/.github/workflows/publish.yaml@main
