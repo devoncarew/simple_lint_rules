@@ -1,3 +1,7 @@
+## 2.0.2+2
+
+- Misc pubspec updates.
+
 ## 2.0.2+1
 
 - Update docs.
