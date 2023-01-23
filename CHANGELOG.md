@@ -1,6 +1,6 @@
 ## 2.0.2+2
 
-- Pubspec updates.
+- Misc pubspec updates.
 
 ## 2.0.2+1
 
