@@ -1,3 +1,10 @@
+# Building the Dart VM for Android
+
+> [!IMPORTANT]
+> The contents of this doc were copied from our wiki and have not yet been
+> confirmed to be current and up-to-date. When this doc is next reviewed and
+> updated please remove this comment.
+
 # Introduction
 
 It is possible to build and run the standalone Dart VM for Android devices. This setup is not yet thoroughly tested, but is available for experimentation.

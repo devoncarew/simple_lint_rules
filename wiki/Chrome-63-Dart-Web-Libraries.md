@@ -1,3 +1,10 @@
+# Chrome 63 Dart Web Libraries
+
+> [!IMPORTANT]
+> The contents of this doc were copied from our wiki and have not yet been
+> confirmed to be current and up-to-date. When this doc is next reviewed and
+> updated please remove this comment.
+
 The Dart Web Libraries have not been updated since Chrome 50.  With this release these libraries have been rev’d to the Chrome 63 APIs (WebIDLs).  Below are the known differences between the Chrome 50 and Chrome 63 Dart Web libraries.  These are the changes that have affected Dart user’s code:
 
 * Touch and TouchEvent change

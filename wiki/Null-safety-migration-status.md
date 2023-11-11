@@ -1,3 +1,10 @@
+# Null safety migration status
+
+> [!IMPORTANT]
+> The contents of this doc were copied from our wiki and have not yet been
+> confirmed to be current and up-to-date. When this doc is next reviewed and
+> updated please remove this comment.
+
 # Null safety migration
 
 This page contains stats for the migration of packages on [pub.dev](https://pub.dev)

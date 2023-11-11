@@ -1,3 +1,10 @@
+# Hot reload
+
+> [!IMPORTANT]
+> The contents of this doc were copied from our wiki and have not yet been
+> confirmed to be current and up-to-date. When this doc is next reviewed and
+> updated please remove this comment.
+
 # Live program changes in the Dart VM ("Hot reload")
 
 The Dart VM can apply changes to a running (live) program, which it calls _hot reload_. The semantics are very close to those of Smalltalk, which doesn't have a name for this feature since in most Smalltalk implementations program changes can only be made in a live programming environment.

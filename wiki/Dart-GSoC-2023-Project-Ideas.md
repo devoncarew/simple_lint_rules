@@ -1,3 +1,10 @@
+# Dart GSoC 2023 Project Ideas
+
+> [!IMPORTANT]
+> The contents of this doc were copied from our wiki and have not yet been
+> confirmed to be current and up-to-date. When this doc is next reviewed and
+> updated please remove this comment.
+
 A list of Google Summer of Code project ideas for Dart.
 
 For GSoC related discussions please use the [dart-gsoc group](https://groups.google.com/forum/#!forum/dart-gsoc).

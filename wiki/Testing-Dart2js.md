@@ -1,3 +1,10 @@
+# Testing Dart2js
+
+> [!IMPORTANT]
+> The contents of this doc were copied from our wiki and have not yet been
+> confirmed to be current and up-to-date. When this doc is next reviewed and
+> updated please remove this comment.
+
 # Testing the dart2js Compiler
 
 Testing dart2js is complicated. There are a lot of configurations that are tested on the build bots. In this document we describe the build bots, and what they test. We also recommend a minimum set of tests that will increase your chances of submitting without a hitch.

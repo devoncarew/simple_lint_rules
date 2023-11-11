@@ -1,11 +1,15 @@
-## Dart SDK wiki
+# README
 
-todo: how to contribute
+> [!IMPORTANT]
+> The contents of this doc were copied from our wiki and have not yet been
+> confirmed to be current and up-to-date. When this doc is next reviewed and
+> updated please remove this comment.
 
-## Categories
+Welcome to the developer wiki for the Dart SDK!
 
-### Foo
+Important pages include:
 
-### Bar
-
-### Baz
+* [Filing Dart issues](https://github.com/dart-lang/sdk/wiki/Filing-Dart-issues)
+* [How the issue tracker works](https://github.com/dart-lang/sdk/wiki/How-the-issue-tracker-works)
+* [Building the SDK](https://github.com/dart-lang/sdk/wiki/Building)
+* [Testing](https://github.com/dart-lang/sdk/wiki/Testing)

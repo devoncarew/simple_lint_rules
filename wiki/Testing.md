@@ -1,3 +1,10 @@
+# Testing
+
+> [!IMPORTANT]
+> The contents of this doc were copied from our wiki and have not yet been
+> confirmed to be current and up-to-date. When this doc is next reviewed and
+> updated please remove this comment.
+
 A programming language and its core libraries sits near the bottom of a
 developer's technology stack. Because of that, they expect it to be reliable and
 bug free. They expect new releases of the Dart SDK to not break any of their

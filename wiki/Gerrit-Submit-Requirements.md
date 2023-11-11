@@ -1,3 +1,10 @@
+# Gerrit Submit Requirements
+
+> [!IMPORTANT]
+> The contents of this doc were copied from our wiki and have not yet been
+> confirmed to be current and up-to-date. When this doc is next reviewed and
+> updated please remove this comment.
+
 In addition to requiring reviews from OWNERS our Gerrit instance applies a number of additional requirements to specific CLs.
 
 # Commit-Message-Has-TEST

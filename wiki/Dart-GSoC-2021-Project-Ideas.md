@@ -1,3 +1,10 @@
+# Dart GSoC 2021 Project Ideas
+
+> [!IMPORTANT]
+> The contents of this doc were copied from our wiki and have not yet been
+> confirmed to be current and up-to-date. When this doc is next reviewed and
+> updated please remove this comment.
+
 :warning: **Google Summer of Code 2021 is no longer accepting applications**.
 
 -----------

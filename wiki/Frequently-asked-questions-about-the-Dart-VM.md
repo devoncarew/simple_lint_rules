@@ -1,5 +1,12 @@
 # Frequently asked questions about the Dart VM
 
+> [!IMPORTANT]
+> The contents of this doc were copied from our wiki and have not yet been
+> confirmed to be current and up-to-date. When this doc is next reviewed and
+> updated please remove this comment.
+
+# Frequently asked questions about the Dart VM
+
 ## Inlining of Dart methods by the JIT/AOT compilers
 
 1. What are the conditions and requirements for a method to be inlined ?

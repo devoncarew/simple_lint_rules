@@ -1,3 +1,10 @@
+# Status files
+
+> [!IMPORTANT]
+> The contents of this doc were copied from our wiki and have not yet been
+> confirmed to be current and up-to-date. When this doc is next reviewed and
+> updated please remove this comment.
+
 Stability is important for a programming language used to implement applications
 that [manage billions of dollars](http://news.dartlang.org/2016/03/the-new-adwords-ui-uses-dart-we-asked.html). To that end, the Dart repository contains a
 comprehensive test suite to cover the various configurations, compilers, tools,

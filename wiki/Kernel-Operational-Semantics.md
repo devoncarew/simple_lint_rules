@@ -1,3 +1,10 @@
+# Kernel Operational Semantics
+
+> [!IMPORTANT]
+> The contents of this doc were copied from our wiki and have not yet been
+> confirmed to be current and up-to-date. When this doc is next reviewed and
+> updated please remove this comment.
+
 The small-step operational semantics of Dart Kernel is given by an abstract machine in the style of the CEK machine.  The machine is defined by a single step transition function where each step of the machine starts in a configuration and deterministically gives a next configuration.  There are several different configurations defined below.
 
 _x_ ranges over variables, &rho; ranges over environments, _K_ ranges over expression continuations, _A_ ranges over application continuations, _E_ ranges over expressions, _S_ ranges over statements, _V_ ranges over values.

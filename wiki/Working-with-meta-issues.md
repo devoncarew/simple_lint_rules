@@ -1,3 +1,10 @@
+# Working with meta issues
+
+> [!IMPORTANT]
+> The contents of this doc were copied from our wiki and have not yet been
+> confirmed to be current and up-to-date. When this doc is next reviewed and
+> updated please remove this comment.
+
 When doing a large task that involves multiple people or changes to the codebase, it helps to have a single issue that tracks the overall state of the task. This is called a "meta-issue". It describes the overall goal and links to more specific issues for individual pieces of work.
 
 If a meta-issue involves work across multiple areas, it should have the "[area-meta][]" label. It should also be assigned to a person who is responsible for coordinating the work across teams and keeping the meta-issue updated. If all of the tasks are within a single area, the meta-issue should instead be labeled with that area. In that case, it doesn't need an assignee, though having one doesn't hurt.

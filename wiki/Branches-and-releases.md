@@ -1,3 +1,10 @@
+# Branches and releases
+
+> [!IMPORTANT]
+> The contents of this doc were copied from our wiki and have not yet been
+> confirmed to be current and up-to-date. When this doc is next reviewed and
+> updated please remove this comment.
+
 ## Branches and work flows
 
 We have a rather simple branch setup for the dart project. Normally, everything is developed on the master branch. Features that are not yet ready for prime time are hidden under a flag, and enabled when sufficient stability has been proven. We occasionally create feature branches for landing big and disruptive changes. In addition to that, we have our dev, beta, and stable branches used for releasing the sdk.

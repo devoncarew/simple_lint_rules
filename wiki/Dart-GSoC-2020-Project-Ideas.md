@@ -1,3 +1,10 @@
+# Dart GSoC 2020 Project Ideas
+
+> [!IMPORTANT]
+> The contents of this doc were copied from our wiki and have not yet been
+> confirmed to be current and up-to-date. When this doc is next reviewed and
+> updated please remove this comment.
+
 :warning: **Google Summer of Code 2020 is no longer accepting applications**.
 
 The list of accepted projects have been announced on [summerofcode.withgoogle.com](https://summerofcode.withgoogle.com/organizations/6544944065413120/).

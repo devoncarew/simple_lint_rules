@@ -1,3 +1,10 @@
+# Test Requirements
+
+> [!IMPORTANT]
+> The contents of this doc were copied from our wiki and have not yet been
+> confirmed to be current and up-to-date. When this doc is next reviewed and
+> updated please remove this comment.
+
 We have several tools, compilers, and runtimes that implement Dart in some way. We must test all of them thoroughly. We'd also like to reuse tests across as many of those tools as we can. The primary challenge is that these tools sometimes vary in their behavior deliberately. For example:
 
 ```dart

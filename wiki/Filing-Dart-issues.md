@@ -1,3 +1,10 @@
+# Filing Dart issues
+
+> [!IMPORTANT]
+> The contents of this doc were copied from our wiki and have not yet been
+> confirmed to be current and up-to-date. When this doc is next reviewed and
+> updated please remove this comment.
+
 Please file issues found in Dart using github issue tracking. However, please note that Dart is being developed in several github repos, so please make sure to file the issue in the correct repo. Consult the table below for details.
 
 Component | Issue tracker
