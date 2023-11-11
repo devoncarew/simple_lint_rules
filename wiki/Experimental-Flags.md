@@ -1,9 +1,9 @@
-# Experimental Flags
-
-> [!IMPORTANT]
+> [!NOTE]
 > The contents of this doc were copied from our wiki and have not yet been
 > confirmed to be current and up-to-date. When this doc is next reviewed and
 > updated please remove this comment.
+
+# Experimental Flags
 
 ## Experimental Flags
 
