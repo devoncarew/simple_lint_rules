@@ -1,3 +1,10 @@
+# Flutter Pinned Packages
+
+> [!IMPORTANT]
+> The contents of this doc were copied from our wiki and have not yet been
+> confirmed to be current and up-to-date. When this doc is next reviewed and
+> updated please remove this comment.
+
 ## What are Flutter pinned packages?
 
 Flutter pinned packages are a set of packages that are pinned by the Flutter SDK to specific versions. Some examples are `package:characters` (pinned by `package:flutter`), `package:collection` (also pinned by `package:flutter`), and `package:path` (pinned by `package:flutter_test`).

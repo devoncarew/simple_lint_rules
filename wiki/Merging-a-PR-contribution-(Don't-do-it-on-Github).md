@@ -1,3 +1,10 @@
+# Merging a PR contribution (Don't do it on Github)
+
+> [!IMPORTANT]
+> The contents of this doc were copied from our wiki and have not yet been
+> confirmed to be current and up-to-date. When this doc is next reviewed and
+> updated please remove this comment.
+
 While creating Gerrit reviews is the preferred approach to contribute to the
 Dart SDK, contributors sometimes create PRs, anyway.
 

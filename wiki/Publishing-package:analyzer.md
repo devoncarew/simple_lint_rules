@@ -1,3 +1,10 @@
+# Publishing package:analyzer
+
+> [!IMPORTANT]
+> The contents of this doc were copied from our wiki and have not yet been
+> confirmed to be current and up-to-date. When this doc is next reviewed and
+> updated please remove this comment.
+
 ## Publishing an alpha version
 
 `package:analyzer` depends on kernel and front_end. We push those last two packages for the benefit of `package:analyzer`, but their APIs don't currently follow semver, so we set analyzer to depend on exact versions.

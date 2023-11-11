@@ -1,3 +1,10 @@
+# Release checklist
+
+> [!IMPORTANT]
+> The contents of this doc were copied from our wiki and have not yet been
+> confirmed to be current and up-to-date. When this doc is next reviewed and
+> updated please remove this comment.
+
 # Release Candidate (full release)
 
 For a release candidate leading up to a stable release, remember to:

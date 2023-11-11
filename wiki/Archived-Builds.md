@@ -1,3 +1,10 @@
+# Archived Builds
+
+> [!IMPORTANT]
+> The contents of this doc were copied from our wiki and have not yet been
+> confirmed to be current and up-to-date. When this doc is next reviewed and
+> updated please remove this comment.
+
 ## Where are they
 
 Archived builds of the SDK and Dartium, and other products, are stored in Google cloud storage in the dart-archive bucket.  These can be browsed with the (unsupported) gsdview app, at [http://gsdview.appspot.com/dart-archive/channels/](http://gsdview.appspot.com/dart-archive/channels/).

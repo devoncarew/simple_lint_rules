@@ -1,3 +1,10 @@
+# Cherry picks to a release channel
+
+> [!IMPORTANT]
+> The contents of this doc were copied from our wiki and have not yet been
+> confirmed to be current and up-to-date. When this doc is next reviewed and
+> updated please remove this comment.
+
 Cherry-picking is the process of selecting and merging an existing bug fix from our main development branch into a release branch (e.g. from `main` to `beta` or `stable`) for inclusion into the next hotfix release.
 
 With the Dart and Flutter joint release process, we're using a combined [Dart & Flutter Cherrypick Review and Approval Process](https://github.com/flutter/flutter/wiki/Flutter-Cherrypick-Process). This document is a supplement to the main process and describes the process and flow within the Dart team.

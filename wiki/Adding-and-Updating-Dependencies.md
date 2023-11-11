@@ -1,3 +1,10 @@
+# Adding and Updating Dependencies
+
+> [!IMPORTANT]
+> The contents of this doc were copied from our wiki and have not yet been
+> confirmed to be current and up-to-date. When this doc is next reviewed and
+> updated please remove this comment.
+
 Since Dart is an open-source project we rely on a number of other open-source projects, as tools
 for building and testing, and as libraries compiled into the Dart SDK. Please follow these guidelines when working with third-party dependencies in both source and binary form.
 

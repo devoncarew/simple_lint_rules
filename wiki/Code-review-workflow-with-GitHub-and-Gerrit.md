@@ -1,3 +1,10 @@
+# Code review workflow with GitHub and Gerrit
+
+> [!IMPORTANT]
+> The contents of this doc were copied from our wiki and have not yet been
+> confirmed to be current and up-to-date. When this doc is next reviewed and
+> updated please remove this comment.
+
 There are several ways to contribute code in GitHub, for example
 
 1. forking and creating pull request from a forked repo (https://help.github.com/articles/fork-a-repo)

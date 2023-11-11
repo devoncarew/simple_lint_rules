@@ -1,3 +1,10 @@
+# Commit Message Best Practices
+
+> [!IMPORTANT]
+> The contents of this doc were copied from our wiki and have not yet been
+> confirmed to be current and up-to-date. When this doc is next reviewed and
+> updated please remove this comment.
+
 1. First line is a capitalized, short (50 chars or less) summary,
    * Please include the component for which the change is being made in the first line
      * **[Analyzer]** short (50 chars or less) summary

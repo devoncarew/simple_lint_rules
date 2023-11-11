@@ -1,3 +1,10 @@
+# How the issue tracker works
+
+> [!IMPORTANT]
+> The contents of this doc were copied from our wiki and have not yet been
+> confirmed to be current and up-to-date. When this doc is next reviewed and
+> updated please remove this comment.
+
 The Dart SDK repo contains a large number of tools and libraries maintained by a
 variety of sub-teams. Having them all in one repo makes it easier to land sweeping
 changes across those components, but it comes at the expense of a big, unwieldy
