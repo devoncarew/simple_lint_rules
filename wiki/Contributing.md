@@ -1,0 +1,1 @@
+The content of this page has moved to https://github.com/dart-lang/sdk/blob/master/CONTRIBUTING.md.
